@@ -1,0 +1,62 @@
+#titles{
+    background-image: url('./background.jpg');
+    height: 100vh;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center; /*가로*/
+    align-items: center; /*세로*/
+    flex-direction: column;
+}
+
+body{
+    margin: 0;
+}
+
+#subTitle{
+    color: rgb(122, 122, 226);
+    font-size: 36px;
+    margin: 0;
+}
+
+#title{
+    color: rgb(122, 122, 226);
+    font-size: 96px;
+    margin: 0;
+}
+
+#header{
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: rgba(255,255,255,0.7);
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header > img{
+    height: 30px;
+    padding-left: 20px;
+}
+
+#nav{
+    display: flex;
+    gap: 30px;
+    padding-right: 30px;
+}
+
+#singIn{
+    display: flex;
+    align-items: center;
+}
+
+#singIn > img{
+    margin-left: 10px;
+    height: 10px;
+}
