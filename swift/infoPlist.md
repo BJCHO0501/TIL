@@ -13,7 +13,7 @@
 - 프로젝트를 생성하면 자동으로 info.plist파일이 생성된다.![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FH7kd6%2FbtqROfxBez2%2FiAZxNO09k9cvDdAmHYp5B1%2Fimg.png)
 
 + 파일 최상단을 보면 Key, Type, Value를 확인할 수 있다.
-+ 특정 키 값을 퍈집하려면 값을 더블클릭하여 선택한 다음 새 값을 입력한다.
++ 특정 키 값을 편집하려면 값을 더블클릭하여 선택한 다음 새 값을 입력한다.
 
   | **Key**                                    | **설명**                             |
   | ------------------------------------------ | ------------------------------------ |
