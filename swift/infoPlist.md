@@ -15,24 +15,24 @@
 + 파일 최상단을 보면 Key, Type, Value를 확인할 수 있다.
 + 특정 키 값을 퍈집하려면 값을 더블클릭하여 선택한 다음 새 값을 입력한다.
 
-| **Key**                                    | **설명**                             |
-| ------------------------------------------ | ------------------------------------ |
-| Localization native development region     | 개발 지역, 언어                      |
-| Executable file                            | 실행 파일 이름                       |
-| Bundle identifier                          | 번들을 식별하는 값                   |
-| InfoDictionary version                     | Info.plist의 버전                    |
-| Bundle name                                | 16글자 미만의 번들 이름(앱 이름)     |
-| Bundle OS Type code                        | 번들 OS 종류 코드                    |
-| Bundle version string (short)              | 번들의 릴리즈 버전                   |
-| Bundle version                             | 번들의 빌드 버전                     |
-| Application requires iPhone environment    | iOS에서만 실행하는지 여부            |
-| Application Scene Manifest                 | 앱의 씬 기반 라이프 사이클 관련 정보 |
-| Application supports indirect input events | 간접 입력 지원 여부                  |
-| Launch screen interface file base name     | 런치스크린 파일 이름                 |
-| Main storyboard file base name             | 메인 스토리보드 파일 이름            |
-| Required device capabilities               | 지원 디바이스(요구 조건)             |
-| Supported interface orientations           | 지원하는 인터페이스 방향             |
-| Supported interface orientations (iPad)    | 지원하는 인터페이스 방향(iPad)       |
+  | **Key**                                    | **설명**                             |
+  | ------------------------------------------ | ------------------------------------ |
+  | Localization native development region     | 개발 지역, 언어                      |
+  | Executable file                            | 실행 파일 이름                       |
+  | Bundle identifier                          | 번들을 식별하는 값                   |
+  | InfoDictionary version                     | Info.plist의 버전                    |
+  | Bundle name                                | 16글자 미만의 번들 이름(앱 이름)     |
+  | Bundle OS Type code                        | 번들 OS 종류 코드                    |
+  | Bundle version string (short)              | 번들의 릴리즈 버전                   |
+  | Bundle version                             | 번들의 빌드 버전                     |
+  | Application requires iPhone environment    | iOS에서만 실행하는지 여부            |
+  | Application Scene Manifest                 | 앱의 씬 기반 라이프 사이클 관련 정보 |
+  | Application supports indirect input events | 간접 입력 지원 여부                  |
+  | Launch screen interface file base name     | 런치스크린 파일 이름                 |
+  | Main storyboard file base name             | 메인 스토리보드 파일 이름            |
+  | Required device capabilities               | 지원 디바이스(요구 조건)             |
+  | Supported interface orientations           | 지원하는 인터페이스 방향             |
+  | Supported interface orientations (iPad)    | 지원하는 인터페이스 방향(iPad)       |
 
 + 위의 Key값들을 이용하여 설정 가능하다. 
 + 더 많은 Key들은 [여기에서](https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Introduction/Introduction.html#//apple_ref/doc/uid/TP40009248-SW1) 찾아볼 수 있다.
