@@ -26,14 +26,14 @@ print(city) //nil
 ### 옵셔널 바인딩 
 
 ```swift
-var myname: String? = ""
+var myname: String? = "BJCHO"
 
 if let name = myname {
   print("My name is \(name)")
 } else {
   print("myname == nil")
 }
-// My name is 감자
+// My name is BJCHO
 ```
 
 + 옵셔널 바인딩은 옵셔널에 값이 있는지 확인할 때 사용한다.
