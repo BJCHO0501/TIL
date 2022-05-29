@@ -30,7 +30,7 @@ UserDefaults.standard.타입(forKey: "키이름")
 func setData(_ sender: String) {
   let data = sender
   UserDefaults.standard.set(data, forKey: "hello")
-	UserDefaults.standard.synchronize()
+  UserDefaults.standard.synchronize()
 }
 
 func getData() {
