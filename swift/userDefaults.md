@@ -14,7 +14,7 @@ UserDefaults.standard.synchronize()
 UserDefaults.standard.타입(forKey: "키이름")
 ```
 
-+ 여기서 이**UserDefaults.standard.synchronize()**를 왜 쓰는것인지 의문이 들것이다. 난 궁금했다.
++ 여기서 이 **UserDefaults.standard.synchronize()** 를 왜 쓰는것인지 의문이 들것이다.
 
   > synchronize() 메소드는 UserDefaults 에 기록된 값을 파일에 쓰는 역활을 한다. 따라서 여러 값을 변경할 경우 매번 synchronize() 를 호출할 필요 없이 다 쓰고 난 다음에 마지막에 딱 한번만 synchronize() 를 호출하면 된다.
 
