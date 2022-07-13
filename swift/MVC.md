@@ -9,9 +9,9 @@
 
 ### MVC
 
-- **Model **: 데이터에 관한 로직 담당 (데이터 값 변경 및 관리)
-- **View **: 사용자에게 보여지는 화면 담장 (UI)
-- **Controller **: Model과 View 연결 (Model 값을 View에 보여줌)
+- **Model**: 데이터에 관한 로직 담당 (데이터 값 변경 및 관리)
+- **View**: 사용자에게 보여지는 화면 담장 (UI)
+- **Controller**: Model과 View 연결 (Model 값을 View에 보여줌)
 
 ### 주요부분
 
