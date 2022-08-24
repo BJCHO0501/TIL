@@ -39,6 +39,8 @@ functionWithAssert(age: nil) // 동작 중지, 검증 실패
 
 \+ **assert(_: _: file: line: )**와 감은 역할을 하지만 실제 배포 환경에서도 동작하는 **precondition(_: _: file: line: )** 함수도 있다.
 
+> func precondition(    _ condition: @autoclosure () -> [`Bool`](https://developer.apple.com/documentation/swift/bool),    _ message: @autoclosure () -> [`String`](https://developer.apple.com/documentation/swift/string) = String(),    file: [`StaticString`](https://developer.apple.com/documentation/swift/staticstring) = #file,    line: [`UInt`](https://developer.apple.com/documentation/swift/uint) = #line )
+
 
 
 ### guard( 빠른동료 - Early Exit )
